@@ -12,7 +12,7 @@ Built With
 
 HTML5 – Structure CSS3 – Styling & animations JavaScript – Interactivity Three.js– 3D background effects
 
-Live Demo https://navajyothpkrishna-collab.github.io/Portfolio/
+Live Demo   https://navajyothpkrishna-collab.github.io/-Portfolio/
 
 Contact Me
 
