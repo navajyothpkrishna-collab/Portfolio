@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navajyoth P Krishna | Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	
+</head>
+<body>
+    
+    <!-- 3D Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="glass-nav">
+        <div class="logo">Navajyoth P Krishna|Portfolio.in </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+	    <li><a href="#project">Projects</a></li>
+	    <li><a href="#connect">Connect</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content wrapper to coordinate scrolling over fixed canvas -->
+    <main class="content-wrapper">
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="subtitle">Welcome to my universe</p>
+                <h1 class="glitch" data-text="Creative Developer">Aspiring Software Engineer</h1>
+                <p class="description">Passionate about solving problems and developing real-world projects.</p>
+                <button class="cta-button" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'})">
+                    <span>Explore My Skills</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-content glass-card">
+                <h2>About Me</h2>
+                <p>Hello! I'm Navajyoth P Krishna. I have a passion for creating immersive, high-performance web applications. I combine modern aesthetics with robust engineering to bring futuristic ideas to life on the web.<br>  I am a first-year Computer Science and Engineering student at Amrita Vishwa Vidyapeetham with a strong interest in applying programming concepts to real-world problems. I have hands-on experience in Python programming and enjoy using it for problem-solving and logical thinking.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">My Arsenal</h2>
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card tilt-card" data-tilt>
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend</h3>
+                    <p> HTML5, CSS3,JavaScript</p>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card tilt-card" data-tilt>
+                    
+                    <h3>Object Oriented Programming</h3>
+                    <p> Java</p>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card tilt-card" data-tilt>
+                   
+                    <h3> Problem Solving </h3>
+                    <p>Python</p>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="skill-card tilt-card" data-tilt>
+                     
+                    <h3>Prgramming Languages</h3>
+                    <p>Python, Java, HTML, CSS, C</p>
+                </div>
+            </div>
+        </section>
+ 
+  <section id="project" class="section">
+    <h2 class="section-title">Projects</h2>
+	<div class="skills-grid">
+
+    <div class="skill-card tilt-card" data-tilt>
+      
+        <h3>Portfolio Website</h3>
+        <p>Personal website built using HTML, CSS & JS.</p>
+     
+      </div> 
+      <div class="skill-card tilt-card" data-tilt>
+	
+	<h2> Ongoing Project</h2>
+        <h3>Sign Language Recognition</h3>
+        <p> Python</p>
+      </div>
+   </div>
+ </section> 
+<!-- Connect -->
+<section id="connect" class="section">
+  <h2 class="section-title">Connect with me</h2>
+
+  <div class="social-icons">
+    <a href="https://www.instagram.com/nav_jyoth?igsh=dWVhbTE1cjd5MDVm" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/navajyothpkrishna-collab" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/navajyoth-p-krishna-a3a58a375" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+</section>
+ 
+
+        <section id="contact" class="section">
+            <div class="contact-box glass-card"> 
+                <h2>Let's build something.</h2>
+                <p>Ready to deploy your next big idea?</p><br>
+                <a href="mailto:navajyothpkrishna@gmail.com" class="cta-button outline">Say Hello</a>
+            </div>
+        </section>
+ 	<!-- Contact -->
+	<div>
+  	<section id="contact" class="section">
+    		<h2>Contact</h2> 
+    		<p>Email:navajyothpkrishna@gmail.com</p>
+		 
+	</div>
+  	</section>
+
+ 
+
+
+        <footer>
+            <p>&copy; 2026 Navajyoth P Krishna. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <!-- Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
